@@ -1,0 +1,23 @@
+CREATE TABLE operadora (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    Registro_ANS int NOT NULL,
+    CNPJ CHAR(14) NOT NULL,
+    Razao_Social VARCHAR(255),
+    Nome_Fantasia VARCHAR(255),
+    Modalidade VARCHAR(100),
+    Logradouro VARCHAR(255),
+    Numero VARCHAR(20),
+    Complemento VARCHAR(255),
+    Bairro VARCHAR(255),
+    Cidade VARCHAR(255),
+    UF CHAR(2),
+    CEP CHAR(8),
+    DDD VARCHAR(3),
+    Telefone VARCHAR(20),
+    Fax VARCHAR(20),
+    Endereco_eletronico VARCHAR(255),
+    Representante VARCHAR(255),
+    Cargo_Representante VARCHAR(255),
+    Regiao_de_Comercializacao VARCHAR(255),
+    Data_Registro_ANS DATE
+);
